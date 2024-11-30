@@ -1,0 +1,124 @@
+
+.navbar {
+    padding: 2rem;
+    background-color: #76a0c9;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* adaptable responsivo */
+@media screen and (max-width: 767px){
+
+}
+
+@media screen and (max-width: 700px){
+ .heroe-inferior-imagen {
+    max-width: 600px;
+ }
+}
+/**estilos section**/
+
+section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.seccion-oscuro {
+    color:white;
+    background-color: blue;
+}
+
+
+.hero principal {
+    padding: 3rem;
+}
+
+
+/** section hero **/
+.hero {
+    background-color: aqua;
+    min-width: 450px;
+    text-align: center;
+}
+
+/** section sobre mi **/
+.sobre-mi {
+    height: 300px;
+    padding: 50px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.imagen-desarrollador {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/** section sobre juegos**/
+.seccion-clara {
+    color:black;
+    background-color: white;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+/** Estilos Generales **/
+.texto1 {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texto2 {
+    font-size: 1.2rem;
+}
+
+.texto4 {
+    color:white;
+    font-size: 3rem;
+    padding: 50px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.text-negro {
+    color: black;
+}
+
+.text-blanco {
+    color: white;
+}
+
+
+.proyectos-recientes {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+
